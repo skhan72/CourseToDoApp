@@ -7,9 +7,7 @@ public class ToDo implements Serializable {
     private String text;
     private long lastSaveTime;
 
-    public ToDo(){}
-
-    public ToDo(String CourseId, String title, String text){
+    public ToDo(String courseId, String title, String text){
         this.courseId = courseId;
         this.title = title;
         this.text = text;
